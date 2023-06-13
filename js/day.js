@@ -2,7 +2,6 @@ var d = new Date();
 m=d.getMonth()+1;
 dd=d.getDate();
 y=d.getFullYear();
-
 //cookie函数
 
 
@@ -23,7 +22,7 @@ function randomNum(minNum,maxNum){
 
 if(m==9&&dd==18){
     console.log("勿忘国耻，振兴中华！\n\n今天是1931年9月18日九一八事变"+(y-1931).toString()+"周年纪念日！\n=================================================================")
-    document.getElementsByTagName("html")[0].setAttribute("style","filter: grayscale(100%);");
+    document.getElementById("grays").innerText=":root{filter: grayscale(100%);}";
     if(sessionStorage.getItem("isPopupWindow")!="1"){
         Swal.fire("今天是1931年9月18日九一八事变"+(y-1931).toString()+"周年纪念日。\n勿忘国耻，振兴中华！");
         sessionStorage.setItem("isPopupWindow","1");
@@ -31,7 +30,7 @@ if(m==9&&dd==18){
 }
 if(m==7&&dd==7){
     console.log("勿忘国耻，振兴中华！\n\n今天是1937年7月7日卢沟桥事变"+(y-1937).toString()+"周年纪念日！\n=================================================================")
-    document.getElementsByTagName("html")[0].setAttribute("style","filter: grayscale(100%);");
+    document.getElementById("grays").innerText=":root{filter: grayscale(100%);}";
     if(sessionStorage.getItem("isPopupWindow")!="1"){
         Swal.fire("今天是1937年7月7日卢沟桥事变"+(y-1937).toString()+"周年纪念日。\n勿忘国耻，振兴中华！");
         sessionStorage.setItem("isPopupWindow","1");
@@ -39,7 +38,7 @@ if(m==7&&dd==7){
 }
 if(m==12&&dd==13){
     console.log("勿忘国耻，振兴中华！\n\n今天是1937年12月13日南京大屠杀"+(y-1931).toString()+"周年纪念日！为遇难的无辜同胞们缅怀！\n=================================================================")
-    document.getElementsByTagName("html")[0].setAttribute("style","filter: grayscale(100%);");
+    document.getElementById("grays").innerText=":root{filter: grayscale(100%);}";
     if(sessionStorage.getItem("isPopupWindow")!="1"){
         Swal.fire("今天是1937年12月13日南京大屠杀"+(y-1937).toString()+"周年纪念日，希望你能停下来缅怀遇难的无辜同胞们。\n勿忘国耻，振兴中华！");
         sessionStorage.setItem("isPopupWindow","1");
@@ -47,7 +46,7 @@ if(m==12&&dd==13){
 }
 if(m==8&&dd==14){
     console.log("勿忘国耻，振兴中华！\n\n今天是8月14日世界慰安妇纪念日！\n=================================================================")
-    document.getElementsByTagName("html")[0].setAttribute("style","filter: grayscale(100%);");
+    document.getElementById("grays").innerText=":root{filter: grayscale(100%);}";
     if(sessionStorage.getItem("isPopupWindow")!="1"){
         Swal.fire("今天是8月14日世界慰安妇纪念日，希望你能停下来了解一下来为历史作证，为曾经的无辜妇女发声。\n勿忘国耻，振兴中华！");
         sessionStorage.setItem("isPopupWindow","1");
@@ -84,19 +83,12 @@ if(m==3&&dd==8){//妇女节
         sessionStorage.setItem("isPopupWindow","1");
     }
 }
-l=["震惊！微软让Minecraft Java免费了！","Minecraft竟然违背Mojang的原则发布2.0！","非常抱歉，因为不可控原因，博客将于明天停止运营，再见","好消息，日本没了！","美国垮了，背后原因竟是时刻心心念念想着祖国的川普！","微软垮了！"]
+l=["震惊！微软让Minecraft Java免费了！","Minecraft竟然违背Mojang的原则发布2.0！","非常抱歉，因为不可控原因，博客将于明天停止运营，再见","好消息，日本没了！","美国垮了，背后原因竟是时刻心心念念想着祖国的川普！","微软垮了！","？！"]
 console.log(m,dd);
 if(m==4&&dd==1){//愚人节，随机谎话
     console.log(l[randomNum(0,l.length-1)]);
     if(sessionStorage.getItem("isPopupWindow")!="1"){
         Swal.fire(l[randomNum(0,l.length-1)]);
-        sessionStorage.setItem("isPopupWindow","1");
-    }
-}
-if(m==5&&dd==1){//劳动节
-    console.log("劳动节快乐！为助力各行各业发展辛勤工作的人们致敬！");
-    if(sessionStorage.getItem("isPopupWindow")!="1"){
-        Swal.fire("劳动节快乐！为助力各行各业发展辛勤工作的人们致敬！");
         sessionStorage.setItem("isPopupWindow","1");
     }
 }
@@ -199,4 +191,9 @@ if((lunar["IMonthCn"]=="九月"&&lunar["IDayCn"]=="初九")){
         sessionStorage.setItem("isPopupWindow","1");
     }
 }
-
+// console.log("江爷爷一路走好！🕯️🕯️🕯️\n=================================================================")
+// document.getElementById("grays").innerText=":root{filter: grayscale(100%);}";
+// if(sessionStorage.getItem("isPopupWindow")!="1"){
+//     Swal.fire("江爷爷一路走好！🕯️🕯️🕯️");
+//     sessionStorage.setItem("isPopupWindow","1");
+// }
