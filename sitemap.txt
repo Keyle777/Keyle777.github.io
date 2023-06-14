@@ -1,8 +1,8 @@
 https://keyle777.github.io/license/index.html
 https://keyle777.github.io/posts/4a17b156/
 https://keyle777.github.io/tools/index.html
-https://keyle777.github.io/update/index.html
 https://keyle777.github.io/zaobao/index.html
+https://keyle777.github.io/update/index.html
 https://keyle777.github.io/package.json
 https://keyle777.github.io/messageboard/index.html
 https://keyle777.github.io/musics/index.html
