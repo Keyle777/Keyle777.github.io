@@ -530,7 +530,7 @@ window.addEventListener('pjax:complete',preloader.endLoading())} )</script><div 
   const init = () => {
     twikoo.init(Object.assign({
       el: '#twikoo-wrap',
-      envId: 'https://yourapi.example.com/',
+      envId: 'https://twikoo-xi-ruddy.vercel.app/',
       region: '',
       onCommentLoaded: function () {
         btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
@@ -542,7 +542,7 @@ window.addEventListener('pjax:complete',preloader.endLoading())} )</script><div 
     const countELement = document.getElementById('twikoo-count')
     if(!countELement) return
     twikoo.getCommentsCount({
-      envId: 'https://yourapi.example.com/',
+      envId: 'https://twikoo-xi-ruddy.vercel.app/',
       region: '',
       urls: [window.location.pathname],
       includeReply: true
@@ -835,7 +835,7 @@ window.onscroll = function() {
   const getComment = () => {
     const runTwikoo = () => {
       twikoo.getRecentComments({
-        envId: 'https://yourapi.example.com/',
+        envId: 'https://twikoo-xi-ruddy.vercel.app/',
         region: '',
         pageSize: 6,
         includeReply: true
