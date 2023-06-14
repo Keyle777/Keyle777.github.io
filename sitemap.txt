@@ -14,8 +14,8 @@ https://keyle777.github.io/manifest.json
 https://keyle777.github.io/kongtiao/index.html
 https://keyle777.github.io/links/index.html
 https://keyle777.github.io/categories/index.html
-https://keyle777.github.io/fontawesome/index.html
 https://keyle777.github.io/fcircle/index.html
+https://keyle777.github.io/fontawesome/index.html
 https://keyle777.github.io/about/index.html
 https://keyle777.github.io/bangumis/index.html
 https://keyle777.github.io/
