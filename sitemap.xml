@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://keyle777.github.io/posts/2f3b81ad/</loc>
+    
+    <lastmod>2023-06-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://keyle777.github.io/categories/index.html</loc>
+    
+    <lastmod>2023-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://keyle777.github.io/speaks/index.html</loc>
+    
+    <lastmod>2023-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://keyle777.github.io/othersite/index.html</loc>
     
     <lastmod>2023-06-14</lastmod>
@@ -38,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://keyle777.github.io/update/index.html</loc>
+    <loc>https://keyle777.github.io/zaobao/index.html</loc>
     
     <lastmod>2023-06-13</lastmod>
     
@@ -47,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://keyle777.github.io/zaobao/index.html</loc>
+    <loc>https://keyle777.github.io/update/index.html</loc>
     
     <lastmod>2023-06-13</lastmod>
     
@@ -92,15 +119,6 @@
   </url>
   
   <url>
-    <loc>https://keyle777.github.io/speaks/index.html</loc>
-    
-    <lastmod>2023-06-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://keyle777.github.io/tags/index.html</loc>
     
     <lastmod>2023-06-13</lastmod>
@@ -129,15 +147,6 @@
   
   <url>
     <loc>https://keyle777.github.io/links/index.html</loc>
-    
-    <lastmod>2023-06-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://keyle777.github.io/categories/index.html</loc>
     
     <lastmod>2023-06-13</lastmod>
     
@@ -184,11 +193,18 @@
 
   <url>
     <loc>https://keyle777.github.io/</loc>
-    <lastmod>2023-06-14</lastmod>
+    <lastmod>2023-06-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>https://keyle777.github.io/tags/Java/</loc>
+    <lastmod>2023-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 
   
